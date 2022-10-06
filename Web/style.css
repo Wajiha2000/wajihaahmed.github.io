@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+#main_container{
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    background-color: black;
+    color: white;
+}
+/* Header */
+header{
+    width: 100%;
+    line-height: 50px;
+    height: 50px;
+    background-color: black;
+    padding-left: 10px;
+    padding-right: 20px;
+    border: 2px solid grey;
+}
+header ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 30px;
+}
+header ul li a{
+    text-decoration: none;
+    color: white;
+}
+header ul .logo {
+    border-bottom: 2px solid white;
+}
+header ul li a:hover{
+    color: silver;
+}
+.list1_right{
+    float: right;
+}
+/* NavigationBar */
+nav{
+    width: 100%;
+    line-height: 50px;
+    height: 50px;
+    background-color: rgb(45, 56, 43);
+    color : white;
+    padding-left: 10px;
+    padding-right: 20px;
+    border: 2px solid black;
+}
+.list_right{
+    float: right;
+}
+nav ul li{
+    display: inline-block;
+    margin-left: 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover{
+    color: silver;
+}
+/* Contact Us */
+.con {
+    margin: 30px 50px 30px 50px;
+    background-color: rgb(45, 56, 43);
+    border-radius: 20px;
+    text-align: center;
+}
+.contact .con h1{
+    color : white;
+    text-align: center;
+}
+.contact table td input[type=text] {
+    width: 600px;
+    height: 40px;
+    background-color: rgb(45, 56, 43);
+    color: white;
+}
+.contact table td input[type=email] {
+    width: 600px;
+    height: 40px;
+    background-color: rgb(45, 56, 43);
+    color: white;
+}
+.contact input[type=submit] {
+    width: 150;
+    height: 40px;
+    background-color: rgb(45, 56, 43);
+    padding: 10px 30px 10px 30px;
+    color: white;
+    margin-left: 100px;
+}
+.contact table td input[type=number] {
+    width: 600px;
+    height: 40px;
+    background-color: rgb(45, 56, 43);
+    color: white;
+}
+.contact table td label {
+    width: 100px;
+    color: white;
+}
+/* Content */
+.vop_pak{
+    width: 100%;
+    height: auto;
+    background-image: url(images/bus.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+.vop{
+    width: 100%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-size: auto;
+    padding: 200px;
+    padding-left: 500px;
+    color: white;
+}
+.content{
+    width: 100%;
+    line-height: 20px;
+    height: auto;
+    text-align: center;
+    background-color: rgb(45, 56, 43);
+    color: white;
+    padding-top: 30px;
+    border: 2px solid black;
+}
+div p{
+    color: silver;
+}
+.content button{
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    padding: 6px 6px;
+}
+.news{
+    width: 100%;
+    height: 350px;
+    text-align: center;
+    background-color: black;
+    padding-top: 100px;
+    border: 2px solid black;
+}
+.latest_news{
+    width: 25%;
+    height: 200px;
+}
+/* Footer */
+.footer {
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    color: white;
+    background-color: rgb(45, 56, 43);
+}
+.footer table {
+    width: 100%;
+    height: auto;
+}
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+.footer p {
+    color: black;
+}

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <script src="./assets/js/app.js"></script>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="nav-logo">
+            <a href="./index.html">
+                <p class="nav-logo-p">SCHOOL NAME</p>
+                <!-- <img src="#" alt="logo" /> -->
+            </a>
+        </div>
+        <div class="nav-links">
+            <a href="signup.php" class="nav-link">
+                &nbsp;&nbsp;<i class="fa fa-home"></i>&nbsp;&nbsp;HOME
+            </a>
+            <a href="cart.php" class="nav-link">
+                &nbsp;&nbsp; <i class="fa fa-user-circle-o"></i>&nbsp;&nbsp;ABOUT
+            </a>
+            <a href="cart.php" class="nav-link">
+                &nbsp;&nbsp; <i class="fa fa-phone"></i>&nbsp;&nbsp;CONTACT US
+            </a>
+            <a class="nav-link" id="openSidemenuButton" onclick="openSidemenu()">
+                &nbsp;&nbsp;<i class="fa fa-book"></i>&nbsp;&nbsp;ACADEMICS
+            </a>
+            <div id="sidemenu" class="hidden">
+                <h4>
+                    ACADEMICS
+                    <button class="cross" onclick="closeSidemenu()">x</button>
+                </h4>
+                <div>
+                    <a href="#">ACADEMICS</a>
+                </div>
+                <div>
+                    <a href="#">SUBJECTS OFFERED</a>
+                </div>
+                <div>
+                    <a href="#">ACTIVITY BASED LEARNING</a>
+                </div>
+                <div>
+                    <a href="#">INTERMEDIATE PROGRAM</a>
+                </div>
+                <div>
+                    <a href="#">POLICY</a>
+                </div>
+                <div>
+                    <a href="#">EDUCATION POLICY</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Navbar End -->
+    <!-- Advertisements -->
+    <div class="advertisements">
+        <img class="advertisements-image" src="./assets/images/adver.jpeg" alt="special day Advertisements" />
+    </div>
+    <div class="cards">
+        <div class="cards-body-1">
+            <div class="icon"><img src="./assets/images/open-book.png" alt="" width="10%" style=" text-align:left;">
+            </div>
+            <h4>VISION</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum aspernatur ad asperiores ut saepe, eveniet
+                alias in ex nobis, neque eius eligendi quam vel ullam vero amet architecto corrupti aut!</p>
+        </div>
+        <div class="cards-body-2">
+            <div class="icon"><img src="./assets/images/television.png" alt="" width="10%" style=" text-align:left;">
+            </div>
+            <h4>MISSION</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum aspernatur ad asperiores ut saepe, eveniet
+                alias in ex nobis, neque eius eligendi quam vel ullam vero amet architecto corrupti aut!</p>
+        </div>
+    </div>
+    <div class="cards">
+        <div class="cards-body-1">
+            <div class="icon"><img src="./assets/images/file.png" alt="" width="10%" style=" text-align:left;"></div>
+            <h4>CO-CIRCULAR ACTIVITIES</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum aspernatur ad asperiores ut saepe, eveniet
+                alias in ex nobis, neque eius eligendi quam vel ullam vero amet architecto corrupti aut!</p>
+        </div>
+        <div class="cards-body-2">
+            <div class="icon"><img src="./assets/images/curriculam.png" alt="" width="10%" style=" text-align:left;">
+            </div>
+            <h4>CURRICULAM</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum aspernatur ad asperiores ut saepe, eveniet
+                alias in ex nobis, neque eius eligendi quam vel ullam vero amet architecto corrupti aut!</p>
+        </div>
+    </div>
+    <div class="advertisements-b">
+        <img class="advertisements-image-b" src="./assets/images/adver1.jpeg" alt="special day Advertisements" />
+    </div>
+    <!-- About -->
+    <div class="About">
+        <div class="about-body-1">
+            <h3>About</h3>
+            <h5>School Name</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum aspernatur ad asperiores ut saepe, eveniet
+                alias in ex nobis, neque eius eligendi quam vel ullam vero amet architecto corrupti aut! Lorem ipsum
+                dolor sit amet, consectetur adipisicing elit. Eum dolorem eveniet sunt voluptatem laborum, ad doloribus
+                fugiat dicta illum ut asperiores velit veritatis porro sapiente, ullam veniam dolorum quia laudantium?
+            </p>
+            <a href="#"><input class="about-learn-more-btn" type="button" value="Learn more" /></a>
+        </div>
+        <div class="about-body-2">
+            <img src="./assets/images/building.png" alt="building" width="100%">
+        </div>
+    </div>
+    <div class="gallery">
+        <h2>Gallery</h2>
+        <h5>No images available</h5>
+    </div>
+    <footer>
+        <div class="footer">
+            <table>
+                <tr>
+                    <th>Logo</th>
+                    <th>USEFUL LINKS</th>
+                    <th>ACADEMICS</th>
+                    <th>FOR YOU</th>
+                </tr>
+                <tr>
+                    <td>Small paragh about school</td>
+                    <td>Home</td>
+                    <td>Education Policy</td>
+                    <td>Magazines</td>
+                </tr>
+                <tr>
+                    <td>(Address)</td>
+                    <td>About Us</td>
+                    <td>Learning Strategies</td>
+                    <td>Newsletters</td>
+                </tr>
+                <tr>
+                    <td>Number</td>
+                    <td>Academics</td>
+                    <td>Subject Offered</td>
+                    <td>Career</td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td>Intermediate</td>
+                    <td>Alumni</td>
+                </tr>
+            </table>
+        </div>
+    </footer>

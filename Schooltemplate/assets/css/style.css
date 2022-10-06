@@ -1,0 +1,322 @@
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: black; */
+    
+}
+
+.full-scr {
+    margin-top: 50px !important;
+    /* for the header */
+}
+
+/* * HEADER */
+
+.navbar {
+    position: fixed;
+    /* This will set the position of the navbar to fixed on the sceen */
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    /* set this height according to your logo height */
+    padding: 0px 20px;
+    background-color: orange;
+    z-index: 1;
+    color: white;   
+}
+
+.nav-logo {
+    float: left;
+    /* to set the logo on the left side of the navbar */
+    width: 50px;
+    height: 50px;
+}
+
+.nav-logo-p  {
+    width: 300px;
+    height: 50px;
+    padding-top: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+
+}
+
+.nav-links {
+    float: right;
+    /* set this to right if you want the links to align to the right */
+    height: 100%;
+}
+
+.nav-link {
+    height: 100%;
+    display: flex;
+    /* to align the text */
+    align-items: center;
+    /* Align text center vertically */
+    float: left;
+    /* this is to stack the links side by side */
+    padding: 0px 25px;
+    /* padding 25px horizontally */
+    text-decoration: none;
+    /* to remove the underline and rhe ugly purple color */
+    color: white;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    background-color: orangered;
+    color: white;
+}
+
+.nav-link input[type="text"] {
+    width: 120px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    /* border-radius: 10px; */
+    font-size: 16px;
+    background-color: white;
+    padding: 6px 20px 6px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+.nav-link input[type="text"]:focus {
+    width: 100%;
+}
+
+/* * END HEADER */
+/* Side Nav bar */
+#sidemenu {
+    position: fixed;
+    background-color: orange;
+    width: 250px;
+    height: 100%;
+    right: 0px;
+    top: 0px;
+    transition: 0.5s;
+    border: 5px solid red;
+    border-radius: 2px;
+}
+
+#sidemenu div {
+    margin: 10px;
+}
+
+#sidemenu div a {
+    color: white;
+    text-decoration: none;
+}
+
+#sidemenu h4 {
+    text-align: center;
+    color: white;
+}
+
+#sidemenu.hidden {
+    left: -250px;
+    transition: 0.5s;
+}
+
+#openSidemenuButton.hidden {
+    display: none;
+}
+
+.cross {
+    width: 30px;
+    text-decoration: none;
+    background-color: orangered;
+    color: white;
+    border: 1px solid orange;
+    border-radius: 10px;
+}
+
+/* End Side Nav bar */
+.advertisements {
+    width: 100%;
+}
+.advertisements-image {
+    width: 100%;
+    height: 600px;
+    padding: 100px 30px 100px 30px;
+}
+
+/* Cards */
+.cards {
+    width: 90%;
+    height: auto;
+    text-align: center;
+}
+.cards-body-1 {
+    width: 40%;
+    height: auto;
+    display: inline-block;
+    text-align: left;
+    padding: 30px;
+
+}
+
+.cards-body-2 {
+    width: 45%;
+    height: auto;
+    display: inline-block;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+
+}
+
+/* Advertisements */
+.advertisements-b {
+    width: 100%;
+}
+.advertisements-image-b {
+    width: 100%;
+    height: 300px;
+    /* padding: 100px 30px 100px 30px; */
+}
+
+/* About */
+.about {
+    width: 90%;
+    height: auto;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.about-body-1 {
+    width: 45%;
+    height: auto;
+    display: inline-block;
+    text-align: left;
+    padding: 30px;
+
+}
+
+.about-learn-more-btn {
+    border: 1px solid orangered;
+    background-color: white;
+    width: 200px;
+    height: 50px;
+    text-decoration: none;
+
+}
+.about-learn-more-btn:hover {
+    border-top: 3px solid red;
+    border-bottom: 3px solid red;
+    transition: 0.2s;
+}
+.about-body-2 {
+    width: 43%;
+    height: auto;
+    display: inline-block;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    /* display: block; */
+
+}
+.gallery {
+    text-align: center;
+    padding: 50px;
+}
+
+/* Footer */
+.footer {
+    width: 100%;
+    height: 400px;
+    background-color: orange;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: white;
+}
+.footer table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+.footer th, td {
+    padding: 10px;
+}
+@media screen and (max-width: 768px) {
+
+    .navbar {
+        width: 100%;
+        position: fixed;
+        /* This will set the position of the navbar to fixed on the sceen */
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 50px;
+        /* set this height according to your logo height */
+        padding: 0px 20px;
+        background-color: orange;
+    }
+
+    .nav-logo {
+        float: left;
+        /* to set the logo on the left side of the navbar */
+        width: 100%;
+        height: 50px;
+    }
+
+    .nav-logo img {
+        width: 100px;
+        height: 50px;
+    }
+
+    .nav-links {
+        float: right;
+        /* set this to right if you want the links to align to the right */
+        height: 100%;
+        width: 100%;
+    }
+
+    .nav-link {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        /* to align the text */
+        align-items: center;
+        /* Align text center vertically */
+        float: left;
+        /* this is to stack the links side by side */
+        padding: 0px 0px;
+        /* padding 25px horizontally */
+        text-decoration: none;
+        /* to remove the underline and rhe ugly purple color */
+        color: white;
+        font-weight: bold;
+        background-color: orange;
+    }
+
+    .nav-link:hover {
+        background-color: orangered;
+        color: white;
+    }
+
+    .nav-link input[type="text"] {
+        width: 100%;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        font-size: 16px;
+        background-color: white;
+        padding: 6px 20px 6px 40px;
+        -webkit-transition: width 0.4s ease-in-out;
+        transition: width 0.4s ease-in-out;
+    }
+
+    .nav-link input[type="text"]:focus {
+        width: 100%;
+    }
+}
